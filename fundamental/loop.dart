@@ -341,4 +341,39 @@ TYPE2 : 8
     }
     print('\n');
   }
+
+// for-in loop
+  var numbers = [1, 2, 3];
+  for (var n in numbers) {
+    print(n);
+  }
+  //standard for loop
+  for (var i = 0; i < numbers.length; i++) {
+    print(numbers[i]);
+  }
+//foreach loop
+  numbers.forEach((n) => print(n));
+  //while loop
+  int num = 5;
+  // while (num > 0) {
+  //   print(num);
+  //   num -= 1;
+  // }
+  //do while
+  do {
+    print(num);
+    num -= 1;
+  } while (num > 0);
+
+//we can terminate loop by condition (break and continue)
+  for (var i = 0; i <= 10; i++) {
+    if (i > 7) break;
+    print(i);
+  }
+  //continue
+  for (var i = 0; i < 20; i++) {
+    if (i % 2 == 0)
+      continue; //id i is even then dont go to the next part increment i otherwise print odd
+    print("odd[$i]");
+  }
 }
