@@ -1,3 +1,5 @@
+import 'dart:io'; 
+
 //pattern practice
 /*
 ----------------PATTERN TYPE 1-------------
@@ -393,4 +395,23 @@ TYPE2 : 8
       continue; //id i is even then dont go to the next part increment i otherwise print odd
     print("odd[$i]");
   }
+
+
+
+  
+// diamond loop
+
+  int inp = int.parse(stdin.readLineSync());
+
+  for(int i = 0; i<inp; i++)
+  {
+    if(i !=  inp/2){
+      stdout.write(' ');
+    }
+    else{
+      stdout.write('*');
+    }
+
+  }
 }
+
