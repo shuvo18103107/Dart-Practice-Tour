@@ -1,5 +1,3 @@
-import 'dart:io'; 
-
 //pattern practice
 /*
 ----------------PATTERN TYPE 1-------------
@@ -40,66 +38,67 @@ pattern 8
 
 
 */
+import 'dart:io';
 
 main() {
   //pattern 1 solution
 
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(col);
+      stdout.write(col);
     }
-    print('\n');
+    stdout.write('\n');
   }
 //pattern 2 sol
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(row);
+      stdout.write(row);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pattern 3
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(col % 2);
+      stdout.write(col % 2);
     }
-    print('\n');
+    stdout.write('\n');
   }
 
 //pattern 4
 
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(row % 2);
+      stdout.write(row % 2);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pattern 5
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(col + 64));
+      stdout.write(String.fromCharCode(col + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pattern 6
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(row + 64));
+      stdout.write(String.fromCharCode(row + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pattern 7
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print('*');
+      stdout.write('*');
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pattern 8
   for (int row = 1; row <= 5; row++) {
     for (int col = 1; col <= row; col++) {
-      print('#');
+      stdout.write('#');
     }
-    print('\n');
+    stdout.write('\n');
   }
 
 /*
@@ -145,58 +144,58 @@ TYPE2 : 8
   //patterntype2 1 sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(col);
+      stdout.write(col);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 2  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(row);
+      stdout.write(row);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 3  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(col % 2);
+      stdout.write(col % 2);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 4  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(row % 2);
+      stdout.write(row % 2);
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 5  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(col + 64));
+      stdout.write(String.fromCharCode(col + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 4  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(row + 64));
+      stdout.write(String.fromCharCode(row + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 4  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print('*');
+      stdout.write('*');
     }
-    print('\n');
+    stdout.write('\n');
   }
   //patterntype2 4  sol
   for (int row = 5; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print('#');
+      stdout.write('#');
     }
-    print('\n');
+    stdout.write('\n');
   }
   /*
   ----------------PATTERN TYPE 3--------
@@ -234,67 +233,67 @@ TYPE2 : 8
   // type3 1 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= row; col++) {
-      print(col);
+      stdout.write(col);
     }
-    print('\n');
+    stdout.write('\n');
   }
   for (int row = 3 - 1; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(col);
+      stdout.write(col);
     }
-    print('\n');
+    stdout.write('\n');
   }
   // type3 2 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= row; col++) {
-      print(row);
+      stdout.write(row);
     }
-    print('\n');
+    stdout.write('\n');
   }
   for (int row = 3 - 1; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(row);
+      stdout.write(row);
     }
-    print('\n');
+    stdout.write('\n');
   }
   // type3 3 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(col + 64));
+      stdout.write(String.fromCharCode(col + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   for (int row = 3 - 1; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(col + 64));
+      stdout.write(String.fromCharCode(col + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   // type3 4 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(row + 64));
+      stdout.write(String.fromCharCode(row + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   for (int row = 3 - 1; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print(String.fromCharCode(row + 64));
+      stdout.write(String.fromCharCode(row + 64));
     }
-    print('\n');
+    stdout.write('\n');
   }
   // type3 5 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= row; col++) {
-      print('*');
+      stdout.write('*');
     }
-    print('\n');
+    stdout.write('\n');
   }
   for (int row = 3 - 1; row >= 1; row--) {
     for (int col = 1; col <= row; col++) {
-      print('*');
+      stdout.write('*');
     }
-    print('\n');
+    stdout.write('\n');
   }
   /*
   ----------------PATTERN TYPE 4--------
@@ -335,13 +334,13 @@ TYPE2 : 8
   // type4 1 solve
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= 3 - row; col++) {
-      print(' ');
+      stdout.write(' ');
     }
     for (int col = 1; col <= row; col++) {
-      print(col);
+      stdout.write(col);
       ;
     }
-    print('\n');
+    stdout.write('\n');
   }
   //pyramid problem
 
@@ -351,67 +350,48 @@ TYPE2 : 8
 * * * * *
 
 */
-  for (int i = 1; i <= 4; i++) {
-    for (int j = 1; j <= 4 - i; j++) {
-      print(' ');
-    }
-    for (int j = 1; j <= i; j++) {
-      print('*');
-    }
-    print('\n');
-  }
+/*
+diamond problem 
+      *
+   *  *  *
+ * *  *  *  *
+   *  *  * 
+      *  
+   
+*/
 
 // for-in loop
   var numbers = [1, 2, 3];
   for (var n in numbers) {
-    print(n);
+    stdout.write(n);
   }
   //standard for loop
   for (var i = 0; i < numbers.length; i++) {
-    print(numbers[i]);
+    stdout.write(numbers[i]);
   }
 //foreach loop
-  numbers.forEach((n) => print(n));
+  numbers.forEach((n) => stdout.write(n));
   //while loop
   int num = 5;
   // while (num > 0) {
-  //   print(num);
+  //   stdout.write(num);
   //   num -= 1;
   // }
   //do while
   do {
-    print(num);
+    stdout.write(num);
     num -= 1;
   } while (num > 0);
 
 //we can terminate loop by condition (break and continue)
   for (var i = 0; i <= 10; i++) {
     if (i > 7) break;
-    print(i);
+    stdout.write(i);
   }
   //continue
   for (var i = 0; i < 20; i++) {
     if (i % 2 == 0)
-      continue; //id i is even then dont go to the next part increment i otherwise print odd
-    print("odd[$i]");
-  }
-
-
-
-  
-// diamond loop
-
-  int inp = int.parse(stdin.readLineSync());
-
-  for(int i = 0; i<inp; i++)
-  {
-    if(i !=  inp/2){
-      stdout.write(' ');
-    }
-    else{
-      stdout.write('*');
-    }
-
+      continue; //id i is even then dont go to the next part increment i otherwise stdout.write odd
+    stdout.write("odd[$i]");
   }
 }
-
