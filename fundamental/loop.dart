@@ -360,9 +360,18 @@ diamond problem
    
 */
 //diamond problem solve
-  stdout.write('please number dalo ');
+  stdout.write('please number dalo pa ji');
   var input = int.parse(stdin.readLineSync());
   for (var i = 1; i <= input; i++) {
+    for (var j = 1; j <= input - i; j++) {
+      stdout.write(" ");
+    }
+    for (var j = 1; j <= 2 * i - 1; j++) {
+      stdout.write("*");
+    }
+    stdout.write('\n');
+  }
+  for (var i = input - 1; i >= 0; i--) {
     for (var j = 1; j <= input - i; j++) {
       stdout.write(" ");
     }
