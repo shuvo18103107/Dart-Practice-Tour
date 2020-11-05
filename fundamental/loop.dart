@@ -341,6 +341,23 @@ TYPE2 : 8
     }
     print('\n');
   }
+  //pyramid problem
+
+/*
+    *
+  * * *
+* * * * *
+
+*/
+  for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= 4 - i; j++) {
+      print(' ');
+    }
+    for (int j = 1; j <= i; j++) {
+      print('*');
+    }
+    print('\n');
+  }
 
 // for-in loop
   var numbers = [1, 2, 3];
