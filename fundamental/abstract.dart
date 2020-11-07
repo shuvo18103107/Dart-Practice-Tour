@@ -1,8 +1,8 @@
-//abstract mrthod
-//abstract classs
+//*abstract mrthod
+//*abstract classs
 /*
-we can not create object of abstract class 
-so thats why we need abstract method
+*we can not create object of abstract class 
+*so thats why we need abstract method
 
 */
 abstract class shape {

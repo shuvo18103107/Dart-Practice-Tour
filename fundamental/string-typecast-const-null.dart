@@ -1,8 +1,8 @@
 /*
-String 
-Type Conversion
-constant 
-null
+*String 
+*Type Conversion
+*constant 
+*null
 */
 main() {
   // string

@@ -1,14 +1,14 @@
-//interface
+//*interface
 /*
-dart doesnot has any special syntax to declare interface
-an interface is used when you need concrete implementation of all of its functions within its su class
+*dart doesnot has any special syntax to declare interface
+*an interface is used when you need concrete implementation of all of its functions within its su class
 
-it is mandatory to override all methodes in the implementing class
-you can implement multiple class but youy cannot extend multiple class during inheritence
+*it is mandatory to override all methodes in the implementing class
+*you can implement multiple class but youy cannot extend multiple class during inheritence
 
-in interface we use implements keyword 
- in inheritence we can access the super class mrthod in child class by using super.superclassmethodename but in interface we cannot use the super class methode same to same we can override but cannot call the super class function
- we can use multiple class as interface but we have to use the super class methode in interface class and here you can put your own code .
+*in interface we use implements keyword 
+ *in inheritence we can access the super class mrthod in child class by using super.superclassmethodename but in interface we cannot use the super class methode same to same we can override but cannot call the super class function
+ *we can use multiple class as interface but we have to use the super class methode in interface class and here you can put your own code .
 */
 
 class remote {
