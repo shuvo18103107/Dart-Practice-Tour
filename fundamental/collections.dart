@@ -18,10 +18,12 @@ void main() {
   ];
   //this list contain only the string value
   // List<String> name2 = ['john', 'jack', 'jil'];
-  // List<String> name2 = const ['john', 'jack', 'jil']; cannot change any index now beacuse of const
+  ///List<String> name2 = const ['john', 'jack', 'jil']; cannot change any index now beacuse of const
   // name2[1] = 'Mark';
   names[1] = 'Mohammad Ali';
-  // var name2 = names;
+
+  //var name2 = names;
+  //name2[0] = 'noushad';
   //clone the list using spread operator
   var name2 = [...names];
   // now the change in index will not occure beacuse of spread operator it clone the list we cannot change its position value now
@@ -39,9 +41,9 @@ void main() {
 /*
 set is a unorder collection of unique items
 */
-  var halogens = {'florine', 'clorine', 'florine'};
+  var halogens = {'florine', 'clorine', 'florine1'};
   Set<String> hello = {};
-  // var hello = <String>{};//it is a linkedhashmap in runtimetype
+  // hello = <String>{};//it is a linkedhashmap in runtimetype
   for (var n in halogens) {
     print(n);
   }
@@ -59,10 +61,12 @@ set is a unorder collection of unique items
     4: 'pen',
     5: 'Mobile'
   };
+  gifts['second'] = 'rose';
   var fruits = Map();
   fruits['first'] = 'Mango';
   fruits[2] = 'Orange';
   print(fruits[2]);
 
   print(gifts[4]);
+  print(gifts['second']);
 }
