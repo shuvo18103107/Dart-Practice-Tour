@@ -6,7 +6,7 @@
 *final vs const
 *in final we can change the value in runtime but not in compile time
 *and in const we cannot change the value in both run and compile time
-*outside the class final and const behave same 
+*outside the class final and const behave same
 */
 class person {
   String name;
