@@ -30,9 +30,9 @@ class person {
   person(this.name, this.address, [this.age = 18]);
 //named constructor
   person.guest() {
-    name = 'Kamrul pro';
     age = 45;
     address = 'London';
+    name = 'Kamrul pro';
   }
 }
 
@@ -45,13 +45,14 @@ class p {
 
 void main() {
   person obj1 = person('Mohammad Ali', 'Shymoli ka banda');
+  obj1.name = "Ali vai ";
   var obj2 = person('kamrul pa ji', 'Airport ka banda', 21);
   person obj3 = person('Shuvo', 'Shymoli', 25);
   person guestobj = person.guest();
   var object = p('Kamrul shetji ka jay ho');
   var object1 = p('john doe');
 
-  // object.name = 'Kamrul vai';// if we use var instead of final then its work
+  //  object.name = 'Kamrul vai';// if we use var instead of final then its work
   // object.name = 'Kamrul vai ka jay hey';
   // but if we use final keyword in class p in name variable we cannot change the name variable value ;
   obj1.showOutput();
@@ -60,6 +61,7 @@ void main() {
   guestobj.showOutput();
   print(object.name);
   print(object1.name);
+  print(obj1.name);
   print(p
       .age); // class property thats why we cannot use the variable using object we have to access it through classname
 }

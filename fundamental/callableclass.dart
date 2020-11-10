@@ -10,7 +10,6 @@
 void main() {
   person obj = person();
   var msg = obj(25, 'kamrulvai');
-
   print(msg);
 }
 

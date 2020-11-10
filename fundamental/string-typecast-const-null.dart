@@ -37,7 +37,7 @@ main() {
   var one = int.parse('256');
   assert(one == 256);
   //covert string -> double
-  var checkdouble = double.parse('256.3698');
+  var checkdouble = double.parse('256');
   assert(checkdouble == 256.3698);
   //covert int -> string
   String x = 1.toString();

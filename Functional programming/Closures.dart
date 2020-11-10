@@ -7,6 +7,7 @@
 void main() {
   //*def 1: a closure is a function that has access to the parent scope , even after the scope has closed
   String message = 'Kamrul pa ji jindabad ,jite raho pa ji';
+
   //closures function that change the message variable value
   Function kamrul = () {
     message = ' kamrul pa ji ballee baleee.....';

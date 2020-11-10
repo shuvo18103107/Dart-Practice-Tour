@@ -57,9 +57,7 @@ void main() {
 }
 
 class Depositeexception implements Exception {
-  String errormessage() {
-    return ' You cannot enter amount less than zero';
-  }
+  String errormessage() => ' You cannot enter amount less than zero';
 }
 
 void depositemoney(int amount) {
