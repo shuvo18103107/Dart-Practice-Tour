@@ -21,6 +21,8 @@ class circle {
   String color;
   // static methode
   static void stamethode() {
+    print(maxradius);
+
     print('----------------Static methode code--------------');
 
     // this.color; //you cannot use 'this' keyword and even cannot access instance variable
@@ -29,6 +31,8 @@ class circle {
   void normalfunction() {
     stamethode(); // we can call static methode in nrmal methode but we cannot call normal methode inside static methode
     this.color = 'Red';
+    maxradius = 25;
+
     print(
         maxradius); // we can also use static variable inside normal function here as it is inside circle class not in main class so we can access the static variable just call the variable name no need for classname
     print(pi);

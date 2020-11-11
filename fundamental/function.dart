@@ -3,7 +3,7 @@ void main() {
   //*anomoyous function
   list.forEach((n) => print(n));
 
-  showoutput(square(2));
+  showoutput(square(2.5));
   print(sum(20, 25));
   //*named perameter
   print(multi(num1: 10, num2: 50));

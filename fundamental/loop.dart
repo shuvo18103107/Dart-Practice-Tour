@@ -338,7 +338,6 @@ TYPE2 : 8
     }
     for (int col = 1; col <= row; col++) {
       stdout.write(col);
-      
     }
     stdout.write('\n');
   }
