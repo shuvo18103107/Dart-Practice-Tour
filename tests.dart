@@ -1,7 +1,7 @@
 import 'dart:io';
 main() {
 
-  dynamic testVariable;
+  var testVariable;
   testVariable = 25;
   print(testVariable);
 
